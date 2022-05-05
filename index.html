@@ -370,6 +370,17 @@
             
             </ul>
         </div>
+        <div class="footer_form">
+            <p class="form_title">Подпишитесь на рассылку</p>
+            <form class="fff">
+                <input type="email" name="footer_mail">
+                <button type="submit" class="footer_btn">Подписаться
+                    <svg class="footer_icon_soc">
+                        <use href="./img/icons.svg#icon-send-1"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
     </div>
     </footer>
     <div class="backdrop is_hidden" data-modal>
@@ -379,6 +390,38 @@
                     <use href="./img/icons.svg#icon-close"></use>
                 </svg>
             </button>
+            <p class="modal_title">Оставьте свои данные, мы вам перезвоним</p>
+            <form modal_form>
+                <label for="user_name">Имя</label>
+                <input type="text" name="user_name" id="user_name">
+                <svg class="" wwidth="18" height="18">
+                    <use href="./img/icons.svg#icon-name"></use>
+                </svg>
+
+                <label for="user_phone">Телефон</label>
+                <input type="tel" name="user_phone" id="user_phone">
+                <svg class=""  wwidth="18" height="18">
+                    <use href="./img/icons.svg#icon-phone"></use>
+                </svg>
+
+                <label for="user_mail">Почта</label>
+                <input type="email" name="user_mail" id="user_mail">
+                <svg class=""  wwidth="18" height="18">
+                    <use href="./img/icons.svg#icon-mail"></use>
+                </svg>
+
+                <label for="user_coment">Комментарий</label>
+                <textarea name="user_coment" id="user_coment" placeholder="Введите текст"></textarea>
+            
+
+                <input type="checkbox" name="policy" id="policy">
+                <label for="policy">
+                    Соглашаюсь с рассылкой и принимаю
+                    <a href="#">Условия договора</a>
+                </label>
+
+                <button type="submit">Отправить</button>
+            </form>
         </div>
     </div>
 <script src="./js/modal.js"></script>
